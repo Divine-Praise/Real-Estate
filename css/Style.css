@@ -84,8 +84,8 @@ nav .right img {
 
 /* links========================= */
 .links{
-    position: sticky;
-    top: 0px;
+    /* position: sticky;
+    top: 0px; */
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -721,22 +721,24 @@ nav .right img {
     /* border: 1px solid; */
     width: 100%;
     height: 100vh;
-    background-image: url(../images/about\ img.jpg);
+    background-image: url(../images/about\ img3.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .about .about-box{
     width: 50%;
-    border: 1px solid;
+    border: 1px solid white;
     height: 100vh;
     padding-inline: 9%;
+    /* margin-block: 3rem 0; */
+    /* padding-top: 0.5rem; */
     background: rgba(31, 31, 31, 0.85);
 }
 .about .about-box h1{
     font-size: 2.7rem;
     font-weight: 300;
-    margin-block: 70px 90px;
+    margin-block: 50px 50px;
     color: #fff;
 }
 .about .about-box h4{
@@ -749,4 +751,56 @@ nav .right img {
     color: #fff;
     font-size: 1.1rem;
     font-weight: 200;
+}
+.about .dropdown{
+    /* border: 1px solid white; */
+    margin-top: 20px;
+}
+.about .dropdown .content3{
+    margin-top: 30px;
+    /* border-bottom: 1px solid #fff; */
+    display: flex;
+    padding-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    color: #fff;
+    font-weight: 200;
+}
+.about .dropdown .content3 b{
+    color: #fff;
+    padding-inline: 0 30px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+.about .dropdown .content3 i{
+    margin-left: auto;
+    margin-right: 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.dropdown .content3-text{
+    border-bottom: 1px solid #fff;
+    /* display: none; */
+    text-align: left;
+    color: #FFF;
+    height: 1px;
+    padding-inline: 25px;
+    font-size: 0.8rem;
+    overflow: hidden;
+    transition: all ease-in-out .4s;
+}
+.content3-text.active2{
+    height: 80px;
+    transition: all ease-in-out .4s;
+}
+.social-media{
+    /* border: 1px solid; */
+    margin-top: 5rem;
+    /* z-index: -1; */
+}
+.social-media i{
+    margin-inline: 0px 20px;
+    font-size: 2rem;
+    color: #FFF;
 }
