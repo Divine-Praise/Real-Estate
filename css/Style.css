@@ -84,8 +84,8 @@ nav .right img {
 
 /* links========================= */
 .links{
-    /* position: sticky;
-    top: 0px; */
+    position: sticky;
+    top: 0px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -728,7 +728,7 @@ nav .right img {
 }
 .about .about-box{
     width: 50%;
-    border: 1px solid white;
+    border: 0.1px solid white;
     height: 100vh;
     padding-inline: 9%;
     /* margin-block: 3rem 0; */
@@ -803,4 +803,181 @@ nav .right img {
     margin-inline: 0px 20px;
     font-size: 2rem;
     color: #FFF;
+}
+
+/* what we do----------------------- */
+.what{
+    padding-block: 5rem 6rem;
+}
+.what .first-content{
+    padding-bottom: 5rem;
+    padding-inline: 5rem 0;
+    width: fit-content;
+}
+.what p:nth-child(1){
+    font-size: 45px;
+    font-weight: 100;
+    font-style: normal;
+    color: #1F1F1F;
+    font-weight: 300;
+}
+.what .what-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+}
+.what .what-box .box-content{
+    width: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 1rem;
+}
+.what .what-box .box-content .cnt{
+    margin-top: 60px;
+}
+.what .what-box .box-content .cnt h4{
+    font-size: 1.4rem;
+    color: #1F1F1F;
+}
+.what .what-box .box-content .cnt p{
+   line-height: 30px;
+   font-size: 1.3rem;
+   color: #1F1F1F;
+}
+.what .what-box .box{
+    /* border: 1px solid; */
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 20px 20px 30px 0px #D2D2D2 inset,
+    -10px -10px 30px 0px #FFF inset;
+}
+.what .what-box .box .inner-box{
+    /* border: 1px solid; */
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDEDED;
+    box-shadow: 20px 20px 30px 0px #D2D2D2,
+    -10px -10px 30px 0px #FFF;
+}
+.what .what-box .box .inner-box i{
+    font-size: 4rem;
+    color: #12B7B6;
+}
+
+/* recent project---------------- */
+.recent-project{
+    display: flex;
+    justify-content: center;
+    background: #fff;
+}
+.recent-project p:nth-child(1){
+    font-size: 45px;
+    font-weight: 100;
+    font-style: normal;
+    color: #1F1F1F;
+    font-weight: 300;
+}
+.recent-project p:nth-child(2){
+    margin-block: 2rem 4rem;
+    font-size: 1.2rem;
+}
+.recent-project .first-content{
+    padding-block: 3rem 0;
+    padding-inline: 5rem 0;
+    width: fit-content;
+    z-index: 100;
+}
+.recent-project .recent-house{
+    width: 2800px;
+    margin-top: 200px;
+    margin-left: -250px;
+}
+.recent-project .recent-house img{
+    width: 100%;
+}
+
+/* get in touch------------------- */
+.get{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100vh;
+    width: 100%;
+    background: #2D2D2D;
+}
+.get .left{
+    width: 62%;
+    background-image: url(../images/footer\ img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.get .left img{
+    width: 100%;
+}
+.get .right{
+    width: 38%;
+    margin-inline: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.get .right img{
+    width: 85px;
+    margin-top: 100px;
+}
+.get .right p{
+    font-size: 1.2rem;
+    margin-block: 15px 50px;
+    color: #E0E0E0;
+}
+.get .right form{
+    width: 100%;
+}
+.get .right form input{
+    width: 100%;
+    padding-block: 1.7rem;
+    margin-block: 1rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-inline: 30px;
+    font-size: 1.1rem;
+    color: #E0E0E0;
+    background: #2D2D2D;
+    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.45) inset, -10px -10px 30px 0px #2B2B2B inset;
+}
+.get .right form button{
+    width: 70%;
+    padding-block: 1.5rem;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    color: #12B7B6;
+    font-size: 1.3rem;
+    background-color: #2D2D2D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.45), -10px -10px 30px 0px #2B2B2B;
+}
+.get .right form button i{
+    margin-left: 15px;
 }
