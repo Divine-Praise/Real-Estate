@@ -20,7 +20,7 @@ body {
     opacity: 0.99;
     z-index: 2000;
     transition: all ease-in-out .8s;
-    top: -200%;
+    top: -100%;
     display: none;
 }
 .menu-links.active3{
@@ -1031,7 +1031,7 @@ nav .right img {
     font-size: 1.1rem;
     color: #E0E0E0;
     background: #2D2D2D;
-    box-shadow: 10px 10px 30px 0px #111010 inset;
+    box-shadow: 8px 8px 15px 0px #111010  inset;
 }
 .get .right form button{
     width: 70%;
@@ -1055,10 +1055,6 @@ nav .right img {
 
 /* @media query--------------------------------- */
 @media(max-width:1200px){
-    #main-slider,
-    .slider-btns{
-        width: 90%;
-    }
     .dropdown .content3-text{
         font-size: 0.7rem;
     }
