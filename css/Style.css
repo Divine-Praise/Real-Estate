@@ -977,7 +977,7 @@ nav .right img {
     font-size: 1.1rem;
     color: #E0E0E0;
     background: #2D2D2D;
-    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.45) inset, -10px -10px 30px 0px #2B2B2B inset;
+    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.45) inset;
 }
 .get .right form button{
     width: 70%;
@@ -1325,8 +1325,7 @@ nav .right img {
 
 @media(max-width:835px){
     nav{
-        border: 1px solid;
-        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/Rectangle\ 115.jpg);
+        /* background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/Rectangle\ 115.jpg); */
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
