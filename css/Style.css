@@ -977,7 +977,7 @@ nav .right img {
     font-size: 1.1rem;
     color: #E0E0E0;
     background: #2D2D2D;
-    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.45) inset;
+    box-shadow: 10px 10px 30px 0px #111010 inset;
 }
 .get .right form button{
     width: 70%;
@@ -1212,7 +1212,7 @@ nav .right img {
     .menu-links{
         width: 100%;
         min-height: 100vh;
-        background: rgba(31, 31, 31, 0.85);
+        background: #1F1F1F;
         box-sizing: border-box;
         display: flex;
         justify-content: center;
@@ -1251,16 +1251,11 @@ nav .right img {
         color: #12B7B6;
         transition: all ease-in-out .4s;
     }
-    .close{
-        position: absolute;
-        top: 0;
-        right: 0;
-        margin-top: 18px;
-        margin-right: 35px;
-    }
     .close i{
         font-size: 3rem;
         color: #12B7B6;
+        margin-top: 18px;
+        margin-right: 35px;
     }
     .links ul #home{
         display: none;
@@ -1269,8 +1264,8 @@ nav .right img {
         transition: all ease-in-out .4s;
         display: block;
         cursor: pointer;
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         transition: all ease-in-out .4s;
         box-shadow: 8px 8px 20px 0px #D2D2D2 inset,
@@ -1325,7 +1320,7 @@ nav .right img {
 
 @media(max-width:835px){
     nav{
-        /* background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/Rectangle\ 115.jpg); */
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/Rectangle\ 115.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1536,6 +1531,10 @@ nav .right img {
     }
     .search-property .left .top .top-left input{
         font-size: 0.9rem;
+    }
+    .links ul li i {
+        width: 50px;
+        height: 50px;
     }
 
 }
