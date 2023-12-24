@@ -19,35 +19,54 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
+    <!-- Import-Monoton-font==================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap" rel="stylesheet">
+
     <!-- Css Swiper===================== -->
     <link rel="stylesheet" href="./Swiper Files/swiper-bundle.min.css">
 
 </head>
 <body>
+    <!-- menu============================= -->
+    <div class="menu-links">
+        <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Localities</a></li>
+            <li><a href="#">Developers</a></li>
+        </ul>
+        <div class="close">
+            <i class='bx bx-x' id="close-menu"></i>
+        </div>
+    </div>
     <!-- hero=============================== -->
     <nav>
         <div class="left">
-            <a href="#"><img src="images/building logo 1.png" alt="logo"></a>
-            <div class="content">
-                <p>We Help You <br> Building The Dreams <br> & Bring More Than <br> You Expect</p>
-            </div>
-            <div class="search">
-                <input type="search" name="search" id="search" placeholder="Search Properties"><i class='bx bx-search'></i>
+            <a href="index.html"><img src="images/building logo 1.png" alt="logo"></a>
+            <div class="left-container">
+                <div class="content">
+                    <p>We Help You <br> Building The Dreams <br> & Bring More Than <br> You Expect</p>
+                </div>
+                <div class="search">
+                    <input type="search" name="search" id="search" placeholder="Search Properties"><i class='bx bx-search'></i>
+                </div>
             </div>
         </div>
         <div class="right">
-            <img src="images/Rectangle 115.jpg" alt="">
+            <!-- <img src="images/Rectangle 115.jpg" alt=""> -->
         </div>
     </nav>
 
     <!-- links=================== -->
     <div class="links">
         <ul>
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Localities</a></li>
-            <li><a href="#">Developers</a></li>
-            <li><i class='bx bx-menu'></i></li>
+            <li><a href="#" class="active" id="home">Home</a></li>
+            <li><a href="#" id="home">Projects</a></li>
+            <li><a href="#" id="home">Localities</a></li>
+            <li><a href="#" id="home">Developers</a></li>
+            <li id="menu-container"><i class='bx bx-menu' id="menu"></i></li>
         </ul>
     </div>
 
@@ -214,7 +233,7 @@
                     <div class="bottom-left">
                         <p>Price Segment</p>
                         <div class="decide">
-                            <span><i class='bx bx-left-arrow-alt' ></i></span> Affordable <span><i class='bx bx-right-arrow-alt' ></i></span>
+                            <span><i class='bx bx-left-arrow-alt' ></i></span> <span id="aff">Affordable</span> <span><i class='bx bx-right-arrow-alt' ></i></span>
                         </div>
                     </div>
                     <div class="move">
@@ -227,7 +246,7 @@
                 </div>
             </div>
             <div class="right">
-                <i class='bx bx-search'></i>
+                    <i class='bx bx-search'></i>
             </div>
         </div>
     </form>
@@ -413,11 +432,11 @@
                 </div>
             </div>
             <div class="social-media">
-                <a href="#"><i class='bx bxl-facebook'></i></a>
-                <a href="#"><i class='bx bxl-twitter' ></i></a>
-                <a href="#"><i class='bx bxl-instagram' ></i></a>
-                <a href="#"><i class='bx bxl-youtube' ></i></a>
-                <a href="#"><i class='bx bxl-telegram' ></i></a>
+                <a href="#"><i class='bx bxl-facebook' id="fb"></i></a>
+                <a href="#"><i class='bx bxl-twitter' id="tw"></i></a>
+                <a href="#"><i class='bx bxl-instagram' id="ig"></i></a>
+                <a href="#"><i class='bx bxl-youtube' id="yt"></i></a>
+                <a href="#"><i class='bx bxl-telegram' id="tl"></i></a>
             </div>
         </div>
     </div>

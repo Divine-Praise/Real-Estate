@@ -55,3 +55,16 @@ const content3 = document.querySelector('#text3');
     content2.classList.remove("active2");
     content3.classList.toggle("active2");
   });
+
+  //menu
+  const menuIcon = document.querySelector('#menu');
+  const closeIcon = document.querySelector('#close-menu');
+  const menuLinks = document.querySelector('.menu-links');
+
+  menuIcon.addEventListener('click', function(){
+    menuLinks.classList.add('active3');
+  });
+
+  closeIcon.addEventListener('click', function(){
+    menuLinks.classList.remove('active3')
+  });
