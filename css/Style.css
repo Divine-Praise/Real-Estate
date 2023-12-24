@@ -20,12 +20,12 @@ body {
     opacity: 0.99;
     z-index: 2000;
     transition: all ease-in-out .8s;
-    top: -100%;
+    top: -150%;
     display: none;
 }
 .menu-links.active3{
     top: 0;
-    transition: all ease-in-out .8s;
+    transition: all ease-in-out .4s;
 }
 .menu-links i{
     font-size: 3rem;
@@ -1031,6 +1031,7 @@ nav .right img {
     font-size: 1.1rem;
     color: #E0E0E0;
     background: #2D2D2D;
+    z-index: 500;
     box-shadow: 8px 8px 15px 0px #111010  inset;
 }
 .get .right form button{
