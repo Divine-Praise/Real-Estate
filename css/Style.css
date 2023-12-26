@@ -1439,8 +1439,8 @@ nav .right img {
         height: 240px;
     }
     .property .property-container .property-box{
-        width: 270px;
-        height: 270px;
+        width: 2850px;
+        height: 285px;
         border-radius: 50%;
     }
     .property-box .number{
@@ -1639,7 +1639,12 @@ nav .right img {
         font-weight: 600;
     }
     .get .right img{
-        width: 40px;
+        width: 50px;
+    }
+    .get .right p{
+        font-size: 1rem;
+        margin-block: 15px 50px;
+        color: #E0E0E0;
     }
 }
 
