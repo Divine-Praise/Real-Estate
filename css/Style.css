@@ -203,11 +203,10 @@ nav .right img {
 
 /* worked with================= */
 .main-slider{
-    /* border: 1px solid black; */
     width: 90%;
     height: fit-content;
     margin: 20px auto;
-    border-radius: 50px;
+    border-radius: 10px;
     box-shadow: 20px 20px 15px 20px #D2D2D2 inset;
 }
 #main-slider{
@@ -862,7 +861,6 @@ nav .right img {
 }
 .dropdown .content3-text{
     border-bottom: 1px solid #fff;
-    /* display: none; */
     text-align: left;
     color: #FFF;
     height: 1px;
@@ -1265,7 +1263,7 @@ nav .right img {
     .links{
         padding-top: 20px;
         padding-block: 0.8rem;
-        background: none;
+        /* background: none; */
     }
     .links ul #home{
         display: none;
@@ -1414,6 +1412,7 @@ nav .right img {
     .search-property{
         flex-direction: column;
         padding-inline: 5px;
+        margin-block: 6rem;
     }
     .search-property .left{
         width: 95%;
@@ -1439,8 +1438,8 @@ nav .right img {
         height: 240px;
     }
     .property .property-container .property-box{
-        width: 2850px;
-        height: 285px;
+        width: 300px;
+        height: 300px;
         border-radius: 50%;
     }
     .property-box .number{
@@ -1648,6 +1647,35 @@ nav .right img {
     }
     .get .right form input{
         font-size: 1rem;
+    }
+    .main-slider-box{
+        width: 100%;
+        height: 500px;
+    }
+    .main-slider-box img{
+        width: 60%;
+        margin-block: 0rem 3rem;
+    }
+    .main-slider-box #box4{
+        width: 18%;
+        margin-block: 1rem;
+    }
+    .check{
+        margin-block: 50px 0;
+    }
+    .box-content{
+        padding-inline: 0px;
+        text-align: center;
+    }
+    .main-slider{
+        height: 603px;
+    }
+    .slider-btns{
+        margin: 30px auto 0px auto;
+    }
+    .dropdown .content3-text{
+        border-bottom: 1px solid #fff;
+       padding-bottom: 3px;
     }
 }
 
